@@ -1,5 +1,6 @@
 import React, { useEffect} from "react";
 import HeroProfile from "./HeroProfile";
+import FindByName from "./FindByName";
 
 function DisplayHeroes({heroesList, setHeroesList}){
     
@@ -13,6 +14,7 @@ function DisplayHeroes({heroesList, setHeroesList}){
     return (
         <div>
             <h1>Welcome To Our Superhero Codex</h1>
+            <FindByName />
             {displayedHeroes}
         </div>
     )

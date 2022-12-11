@@ -12,7 +12,6 @@ function SlideShow (){
     }, [])
     useEffect(()=>{
         let intervalID=setInterval(()=>setIndex(Math.ceil(Math.random() * slides.length)), 5000)
-        console.log("This is a random number", index)
         return function(){clearInterval(intervalID)}
     }, [slides.length, index])
 
