@@ -23,14 +23,15 @@ function DisplayHeroes({heroesList, setHeroesList}){
     
     const [byTeam, setByTeam] = useState("none")
     function handleFilter(event){
-        console.log(event.target.value)
+        setByTeam(event.target.value)
     }
-    // const filteredByNameAndTeam = filteredHeroes.filter(()=>{
-    //     if (byTeam==="none"){return true}
-    //         else {return hero.team===byTeam}
-    // })
+    const filteredByNameAndTeam = filteredHeroes.filter((hero)=>{
+        if (byTeam==="none"){return true}
+            else {return hero.team===byTeam}
+    })
+    console.log("Team Affiliation", byTeam, "  Array By Team",  filteredByNameAndTeam)
 
-    const displayedHeroes = filteredHeroes.map(hero=><HeroProfile key={hero.id} hero={hero} />)
+    const displayedHeroes = filteredByNameAndTeam.map(hero=><HeroProfile key={hero.id} hero={hero} />)
 
     return (
         <div>
