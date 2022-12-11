@@ -1,311 +1,331 @@
 {
-    "heroes": [
-      {
-        "id": 1,
-        "name": "Superman",
-        "image": "https://media0.giphy.com/media/3o6ZtqfJ38C7Yih5xm/200w.webp?cid=ecf05e47jxo7qo0x02xmxyetgke8rwi1ppjkqprbbjnh0vap&rid=200w.webp&ct=g",
-        "powers": "flight, super strength, super speed, enhanced senses, enhanced durability",
-        "weapons": "heat vision, freeze breath",
-        "team": "Justice League",
-        "quote": "There is a right and a wrong in this universe. And that distinction is not hard to make."
-      },
-      {
-        "id": 2,
-        "name": "Batman",
-        "image": "https://media1.giphy.com/media/C7RCCFdaixA3u/giphy.gif?cid=ecf05e47bm9qqmunwsk3bzdnw9p4oyp2su5tght7tvjxoghn&rid=giphy.gif&ct=g",
-        "powers": "peak human strength and agility, genius level intellect, immense wealth",
-        "weapons": "utility belt, grappling gun, batarangs",
-        "team": "Justice League",
-        "quote": "I am the vengeance, I am the night, I am Batman!"
-      },
-      {
-        "id": 3,
-        "name": "Wonder Woman",
-        "image": "https://media2.giphy.com/media/8cVE0r50yyRYlgqekf/200w.webp?cid=ecf05e47qvpp95k2vntaknjt1mx0kvvpp4d9zobynq6dgtwz&rid=200w.webp&ct=g",
-        "powers": "super strength, super speed, superior combat skills",
-        "weapons": "lasso of truth, bullet proof bracelets, sword, shield",
-        "team": "Justice League",
-        "quote": "I Will Fight For Those Who Cannot Fight For Themselves."
-      },
-      {
-        "id": 4,
-        "name": "The Flash",
-        "image": "https://media1.giphy.com/media/xUOxeZUc8UFwMgH2MM/200w.webp?cid=ecf05e476xqe341xc022qztdyl3kem7z72z954g0px6b5trn&rid=200w.webp&ct=g",
-        "powers": "abilty to move, think, and react at light speed",
-        "weapons": "electrokinesis",
-        "team": "Justice League",
-        "quote": "I've spent my whole life searching for the impossible, never imagining that I would become the impossible"
-      },
-      {
-        "id": 5,
-        "name": "Aquaman",
-        "image": "https://comicvine.gamespot.com/a/uploads/original/11124/111241908/7650941-e16372a6-281e-4f9d-a672-d552fe4bd72d.gif",
-        "powers": "super strength, enhanced durabilty, ability to swim at hypersonic speed, abiltity to communicate with all marine life",
-        "weapons": "trident",
-        "team": "Justice League",
-        "quote": "Okay, so we're doing things a little out of order. S*** happens...My Man"
-      },
-      {
-        "id": 6,
-        "name": "Cyborg",
-        "image": "https://j.gifs.com/zmwGLZ.gif",
-        "powers": "flight, super strength, super speed, enhanced senses, enhanced durability",
-        "weapons": "cybernetic implants which can form weapons",
-        "team": "Justice League",
-        "quote": "You Want Me To Use These Gifts, Right? That's What I'll Do."
-      },
-      {
-        "id": 7,
-        "name": "Martian Manhunter",
-        "image": "https://64.media.tumblr.com/83b61c7de426b21464d232860e17502c/35477471762b828c-56/s500x750/5144aa100cc02d53b244eecc0503d1f81af85aff.gif",
-        "powers": "flight, super strength, super speed, telpathy, shapeshifting, phasing",
-        "weapons": "psychic blasts",
-        "team": "Justice League",
-        "quote": "I will defend Earth!"
-      },
-      {
-        "id": 8,
-        "name": "Iron Man",
-        "image": "https://media3.giphy.com/media/a6U7oJQXFMieA/giphy.webp?cid=ecf05e47zgzslsl07175sylbwx1hpchtxdhe9xv4fu3h9qva&rid=giphy.webp&ct=g",
-        "powers": "peak human intellengence and ingenuity, wealth",
-        "weapons": "Exosuit which grants flight, strength, and repulsor weapons",
-        "team": "Avengers",
-        "quote": "I'm Iron Man"
-      },
-      {
-        "id": 9,
-        "name": "Captain America",
-        "image": "https://media4.giphy.com/media/ULrXjdLIA5M5O/200w.webp?cid=ecf05e4787b6csrh5fepfd1747itjrecnjzmr53e16rewowt&rid=200w.webp&ct=g",
-        "powers": "peak human strength and combat skill, master tactitian",
-        "weapons": "Vibranium shield",
-        "team": "Avengers",
-        "quote": "I can do this all day"
-      },
-      {
-        "id": 10,
-        "name": "Hulk",
-        "image": "https://media3.giphy.com/media/aS8ypUweGOXMA/200w.webp?cid=ecf05e47d09aptuc8h4sib8emi7r9irr83pplyebjf4l09ja&rid=200w.webp&ct=g",
-        "powers": "enhanced strength which increases the madder he gets",
-        "weapons": "Thunder clap",
-        "team": "Avengers",
-        "quote": "Don't make me angry. You wouldn't like me when I'm angry...Hulk Smash"
-      },
-      {
-        "id": 11,
-        "name": "Thor",
-        "image": "https://media3.giphy.com/media/3ov9k1J6jahVhiev0Q/100.webp?cid=ecf05e47tturrlclncdpiq31b4n24uuwsctroyr3p45iwafh&rid=100.webp&ct=g",
-        "powers": "super strength, super speed, superior combat skills",
-        "weapons": "Mjolnir, Stormbreaker",
-        "team": "Avengers",
-        "quote": "I went for the head"
-      },
-      {
-        "id": 12,
-        "name": "Black Panther",
-        "image": "https://thumbs.gfycat.com/RecentCreepyCockroach-size_restricted.gif",
-        "powers": "super strength, super speed, superior combat skills",
-        "weapons": "Vibranium cat suit with retractable claws",
-        "team": "Avengers",
-        "quote": "Wakanda Forever"
-      },
-      {
-        "id": 13,
-        "name": "Spiderman",
-        "image": "https://media.tenor.com/LAM1mZaOqy4AAAAd/spiderman-swing.gif",
-        "powers": "super strength, super agility, spider sense, wall climbing",
-        "weapons": "web shooters",
-        "team": "Avengers",
-        "quote": "With great power, comes great responsibility"
-      },
-      {
-        "id": 14,
-        "name": "Doctor Strange",
-        "image": "https://media1.giphy.com/media/kItp7SxtBjqMkNJMrU/200w.webp?cid=ecf05e47cpi4tby08qluhcgf1ygrwiroh2ht7fof9mwz0idt&rid=200w.webp&ct=g",
-        "powers": "master of the mystic arts",
-        "weapons": "cloak of levitation, bands of Cyttorak, magical constructs",
-        "team": "Avengers",
-        "quote": "They Really Should Put The Warnings Before This Spell."
-      },
-      {
-        "id": 15,
-        "name": "Captain Marvel",
-        "image": "https://media3.giphy.com/media/1kh3Tjz9EBmU3uwpdP/200w.webp?cid=ecf05e47ldz750mn7feei1o4y268wkp085fy9azaqfxaf28z&rid=200w.webp&ct=g",
-        "powers": "flight, super strength, super speed, enhanced durability",
-        "weapons": "energy blasts",
-        "team": "Avengers",
-        "quote": "Higher, further, faster, baby."
-      },
-      {
-        "id": 16,
-        "name": "Wolverine",
-        "image": "https://thumbs.gfycat.com/AdoredMealyClumber.webp",
-        "powers": "healing factor, adamatium covered skeleton",
-        "weapons": "retractable adamantium claws",
-        "team": "X-men",
-        "quote": "I'm The Best There Is At What I Do But What I Do Best Isn't Very Nice."
-      },
-      {
-        "id": 17,
-        "name": "Jean Grey",
-        "image": "https://thumbs.gfycat.com/GiddyAggressiveAnemonecrab.webp",
-        "powers": "telepathy, telekinesis",
-        "weapons": "psychic blasts, phoenix force",
-        "team": "X-men",
-        "quote": "I Know What Everybody Feels."
-      },
-      {
-        "id": 18,
-        "name": "Cyclops",
-        "image": "https://thumbs.gfycat.com/YawningFrighteningBeardeddragon.webp",
-        "powers": "optic blasts",
-        "weapons": "optic blasts",
-        "team": "X-men",
-        "quote": "That's why I am a leader. The blind leading the blind, maybe... but a leader nonetheless."
-      },
-      {
-        "id": 19,
-        "name": "Professor X/Charles Xavier",
-        "image": "https://media2.giphy.com/media/d2YYgKpv8MnvF20M/200w.webp?cid=ecf05e4774zohfcnwbqn4lmo2c6ji9iec5i9gny978lt9uk6&rid=200w.webp&ct=g",
-        "powers": "telepathy",
-        "weapons": "psychic blasts",
-        "team": "X-men",
-        "quote": "Just because someone stumbles and loses their path, doesn’t mean they’re lost forever."
-      },
-      {
-        "id": 20,
-        "name": "Storm",
-        "image": "https://media3.giphy.com/media/xTiQyEIWhGup1JDFrq/200w.webp?cid=ecf05e47lc4qkm7zm79lht9ei6pbnqnwr5ib0v2x05pnnd3x&rid=200w.webp&ct=g",
-        "powers": "weather manipulation",
-        "weapons": "lightning, wind",
-        "team": "X-men",
-        "quote": "Are you ready to do what you need to do when the time comes?"
-      },
-      {
-        "id": 21,
-        "name": "Mystique",
-        "image": "https://thumbs.gfycat.com/ColdLoathsomeIguanodon.webp",
-        "powers": "shapeshifting",
-        "weapons": "none",
-        "team": "X-men",
-        "quote": "I have work to do… after a quick change!"
-      }
-    ],
-    "slides": [
-        {
-            "id": 1,
-            "image": "https://media1.giphy.com/media/l2QZXqfxmtgXIDOPS/200w.webp?cid=ecf05e47iotd64berafq9gvujo7wh2u8vc30b0jfgxja3akd&rid=200w.webp&ct=g"
-        },
-        {
-            "id": 2,
-            "image": "https://media4.giphy.com/media/AqfOVseMPDVja/100.webp?cid=ecf05e471uu5xtgvx63er4joogaa7i656qbpjrkw6po345kv&rid=100.webp&ct=g"
-        },
-        {
-            "id": 3,
-            "image": "https://media0.giphy.com/media/xT9DPtjydKl5FQJKIE/200w.webp?cid=ecf05e471uu5xtgvx63er4joogaa7i656qbpjrkw6po345kv&rid=200w.webp&ct=g"
-        },
-        {
-            "id": 4,
-            "image": "https://media0.giphy.com/media/3ohs7S33U5cM3OSyL6/200.webp?cid=ecf05e47365b1wazhchox6q7ll7wuwr1r57gbeaoz6c5s9og&rid=200.webp&ct=g"
-        },
-        {
-            "id": 5,
-            "image": "https://media3.giphy.com/media/ygizJv7z4cvcBnF47d/200w.webp?cid=ecf05e47ff93uihy25tevsis7i1cxtxngpc1r0dl8s0ypcfp&rid=200w.webp&ct=g"
-        },
-        {
-            "id": 6,
-            "image": "https://media1.giphy.com/media/5g1tx6kE8l3Aa8bGlO/200.webp?cid=ecf05e47vmtfof9302hykpotsh9ws31gdmtn6rwtc5u5397q&rid=200.webp&ct=g"
-        },
-        {
-            "id": 7,
-            "image": "https://media1.giphy.com/media/dUjcZYXKX1ckqW7z0e/giphy.gif?cid=ecf05e47qwbc6e3e6fb2hb1lfz29h9dx66uad155nrw5h6b2&rid=giphy.gif&ct=g"
-        },
-        {
-            "id": 8,
-            "image": "https://media3.giphy.com/media/3o7WTwcO5cLAVL5Z7O/200.webp?cid=ecf05e475nt20d07e5bxnx88h41ss358z9fuyl3d9cq3udl5&rid=200.webp&ct=g"
-        },
-        {
-            "id": 9,
-            "image": "https://media4.giphy.com/media/3o7abJW5ZuiByDelji/200w.webp?cid=ecf05e475nt20d07e5bxnx88h41ss358z9fuyl3d9cq3udl5&rid=200w.webp&ct=g"
-        },
-        {
-            "id": 10,
-            "image": "https://comicvine.gamespot.com/a/uploads/original/11134/111347991/6722049-aquaman2.gif"
-        },
-        {
-            "id": 11,
-            "image": "https://thumbs.gfycat.com/LongBountifulDingo.webp"
-        },
-        {
-            "id": 12,
-            "image": "https://thumbs.gfycat.com/DeliriousGlaringArawana.webp"
-        },
-        {
-            "id": 13,
-            "image": "https://thumbs.gfycat.com/BadFreshFrillneckedlizard.webp"
-        },
-        {
-            "id": 14,
-            "image": "https://thumbs.gfycat.com/BabyishQuerulousBlackbird.webp"
-        },
-        {
-            "id": 15,
-            "image": "https://thumbs.gfycat.com/CalculatingRealisticAzurewingedmagpie.webp"
-        },
-        {
-            "id": 16,
-            "image": "https://thumbs.gfycat.com/BitesizedPrestigiousFritillarybutterfly.webp"
-        },
-        {
-            "id": 17,
-            "image": "https://thumbs.gfycat.com/FlimsyBriefGlassfrog-max-1mb.gif"
-        },
-        {
-            "id": 18,
-            "image": "https://thumbs.gfycat.com/PalatableWindyConey.webp"
-        },
-        {
-            "id": 19,
-            "image": "https://thumbs.gfycat.com/LargeDownrightBird.webp"
-        },
-        {
-            "id": 20,
-            "image": "https://media.tenor.com/gAu-5D85UasAAAAC/hulk-power-slap.gif"
-        },
-        {
-            "id": 22,
-            "image": "https://media3.giphy.com/media/103liSxCY1NpLO/100.webp?cid=ecf05e47ftg0344nqc7qj92x5jbjefspzjbquc9hszngsqup&rid=100.webp&ct=g"
-        },
-        {
-            "id": 23,
-            "image": "https://media0.giphy.com/media/pL6mkjytFkTlekNMtM/200w.webp?cid=ecf05e47a3p6bt1ubdakspabjd3hb66g9mbxc70zzxrwd255&rid=200w.webp&ct=g"
-        },
-        {
-            "id": 24,
-            "image": "https://media3.giphy.com/media/KUA5cwnAVVKSxzeRM1/200w.webp?cid=ecf05e47a3p6bt1ubdakspabjd3hb66g9mbxc70zzxrwd255&rid=200w.webp&ct=g"
-        },
-        {
-            "id": 25,
-            "image": "https://media1.giphy.com/media/oJFfKzLKROzhR8Vxuq/200w.webp?cid=ecf05e478fplo8pgkakrx7bd6ewyodfyz5fum7z6ieonynjx&rid=200w.webp&ct=g"
-        },
-        {
-            "id": 26,
-            "image": "https://media4.giphy.com/media/8P1ugJO2Tw9Usg0JJK/200w.webp?cid=ecf05e47t2ahm6qfvdpa48lb0zfxkuf90vyywte447pljbh3&rid=200w.webp&ct=g"
-        },
-        {
-            "id": 27,
-            "image": "https://media3.giphy.com/media/1kh3Tjz9EBmU3uwpdP/200w.webp?cid=ecf05e47t2ahm6qfvdpa48lb0zfxkuf90vyywte447pljbh3&rid=200w.webp&ct=g"
-        },
-        {
-            "id": 28,
-            "image": "https://thumbs.gfycat.com/HarmoniousSpottedKouprey-max-1mb.gif"
-        },
-        {
-            "id": 29,
-            "image": "https://thumbs.gfycat.com/ThirdLightLadybird.webp"
-        },
-        {
-            "id": 30,
-            "image": "https://media2.giphy.com/media/l46C8sUUi6aNIUsda/giphy.webp?cid=ecf05e47d9sp8np93sm4z5i8xmzel9cm8dxphyhl8jgvinhz&rid=giphy.webp&ct=g"
-        }
-    ]
-  }
+  "heroes": [
+    {
+      "id": 1,
+      "name": "Superman",
+      "image": "https://media0.giphy.com/media/3o6ZtqfJ38C7Yih5xm/200w.webp?cid=ecf05e47jxo7qo0x02xmxyetgke8rwi1ppjkqprbbjnh0vap&rid=200w.webp&ct=g",
+      "powers": "flight, super strength, super speed, enhanced senses, enhanced durability",
+      "weapons": "heat vision, freeze breath",
+      "team": "Justice League",
+      "quote": "There is a right and a wrong in this universe. And that distinction is not hard to make."
+    },
+    {
+      "id": 2,
+      "name": "Batman",
+      "image": "https://media1.giphy.com/media/C7RCCFdaixA3u/giphy.gif?cid=ecf05e47bm9qqmunwsk3bzdnw9p4oyp2su5tght7tvjxoghn&rid=giphy.gif&ct=g",
+      "powers": "peak human strength and agility, genius level intellect, immense wealth",
+      "weapons": "utility belt, grappling gun, batarangs",
+      "team": "Justice League",
+      "quote": "I am the vengeance, I am the night, I am Batman!"
+    },
+    {
+      "id": 3,
+      "name": "Wonder Woman",
+      "image": "https://media2.giphy.com/media/8cVE0r50yyRYlgqekf/200w.webp?cid=ecf05e47qvpp95k2vntaknjt1mx0kvvpp4d9zobynq6dgtwz&rid=200w.webp&ct=g",
+      "powers": "super strength, super speed, superior combat skills",
+      "weapons": "lasso of truth, bullet proof bracelets, sword, shield",
+      "team": "Justice League",
+      "quote": "I Will Fight For Those Who Cannot Fight For Themselves."
+    },
+    {
+      "id": 4,
+      "name": "The Flash",
+      "image": "https://media1.giphy.com/media/xUOxeZUc8UFwMgH2MM/200w.webp?cid=ecf05e476xqe341xc022qztdyl3kem7z72z954g0px6b5trn&rid=200w.webp&ct=g",
+      "powers": "abilty to move, think, and react at light speed",
+      "weapons": "electrokinesis",
+      "team": "Justice League",
+      "quote": "I've spent my whole life searching for the impossible, never imagining that I would become the impossible"
+    },
+    {
+      "id": 5,
+      "name": "Aquaman",
+      "image": "https://comicvine.gamespot.com/a/uploads/original/11124/111241908/7650941-e16372a6-281e-4f9d-a672-d552fe4bd72d.gif",
+      "powers": "super strength, enhanced durabilty, ability to swim at hypersonic speed, abiltity to communicate with all marine life",
+      "weapons": "trident",
+      "team": "Justice League",
+      "quote": "Okay, so we're doing things a little out of order. S*** happens...My Man"
+    },
+    {
+      "id": 6,
+      "name": "Cyborg",
+      "image": "https://j.gifs.com/zmwGLZ.gif",
+      "powers": "flight, super strength, super speed, enhanced senses, enhanced durability",
+      "weapons": "cybernetic implants which can form weapons",
+      "team": "Justice League",
+      "quote": "You Want Me To Use These Gifts, Right? That's What I'll Do."
+    },
+    {
+      "id": 7,
+      "name": "Martian Manhunter",
+      "image": "https://64.media.tumblr.com/83b61c7de426b21464d232860e17502c/35477471762b828c-56/s500x750/5144aa100cc02d53b244eecc0503d1f81af85aff.gif",
+      "powers": "flight, super strength, super speed, telpathy, shapeshifting, phasing",
+      "weapons": "psychic blasts",
+      "team": "Justice League",
+      "quote": "I will defend Earth!"
+    },
+    {
+      "id": 8,
+      "name": "Iron Man",
+      "image": "https://media3.giphy.com/media/a6U7oJQXFMieA/giphy.webp?cid=ecf05e47zgzslsl07175sylbwx1hpchtxdhe9xv4fu3h9qva&rid=giphy.webp&ct=g",
+      "powers": "peak human intellengence and ingenuity, wealth",
+      "weapons": "Exosuit which grants flight, strength, and repulsor weapons",
+      "team": "Avengers",
+      "quote": "I'm Iron Man"
+    },
+    {
+      "id": 9,
+      "name": "Captain America",
+      "image": "https://media4.giphy.com/media/ULrXjdLIA5M5O/200w.webp?cid=ecf05e4787b6csrh5fepfd1747itjrecnjzmr53e16rewowt&rid=200w.webp&ct=g",
+      "powers": "peak human strength and combat skill, master tactitian",
+      "weapons": "Vibranium shield",
+      "team": "Avengers",
+      "quote": "I can do this all day"
+    },
+    {
+      "id": 10,
+      "name": "Hulk",
+      "image": "https://media3.giphy.com/media/aS8ypUweGOXMA/200w.webp?cid=ecf05e47d09aptuc8h4sib8emi7r9irr83pplyebjf4l09ja&rid=200w.webp&ct=g",
+      "powers": "enhanced strength which increases the madder he gets",
+      "weapons": "Thunder clap",
+      "team": "Avengers",
+      "quote": "Don't make me angry. You wouldn't like me when I'm angry...Hulk Smash"
+    },
+    {
+      "id": 11,
+      "name": "Thor",
+      "image": "https://media3.giphy.com/media/3ov9k1J6jahVhiev0Q/100.webp?cid=ecf05e47tturrlclncdpiq31b4n24uuwsctroyr3p45iwafh&rid=100.webp&ct=g",
+      "powers": "super strength, super speed, superior combat skills",
+      "weapons": "Mjolnir, Stormbreaker",
+      "team": "Avengers",
+      "quote": "I went for the head"
+    },
+    {
+      "id": 12,
+      "name": "Black Panther",
+      "image": "https://thumbs.gfycat.com/RecentCreepyCockroach-size_restricted.gif",
+      "powers": "super strength, super speed, superior combat skills",
+      "weapons": "Vibranium cat suit with retractable claws",
+      "team": "Avengers",
+      "quote": "Wakanda Forever"
+    },
+    {
+      "id": 13,
+      "name": "Spiderman",
+      "image": "https://media.tenor.com/LAM1mZaOqy4AAAAd/spiderman-swing.gif",
+      "powers": "super strength, super agility, spider sense, wall climbing",
+      "weapons": "web shooters",
+      "team": "Avengers",
+      "quote": "With great power, comes great responsibility"
+    },
+    {
+      "id": 14,
+      "name": "Doctor Strange",
+      "image": "https://media1.giphy.com/media/kItp7SxtBjqMkNJMrU/200w.webp?cid=ecf05e47cpi4tby08qluhcgf1ygrwiroh2ht7fof9mwz0idt&rid=200w.webp&ct=g",
+      "powers": "master of the mystic arts",
+      "weapons": "cloak of levitation, bands of Cyttorak, magical constructs",
+      "team": "Avengers",
+      "quote": "They Really Should Put The Warnings Before This Spell."
+    },
+    {
+      "id": 15,
+      "name": "Captain Marvel",
+      "image": "https://media3.giphy.com/media/1kh3Tjz9EBmU3uwpdP/200w.webp?cid=ecf05e47ldz750mn7feei1o4y268wkp085fy9azaqfxaf28z&rid=200w.webp&ct=g",
+      "powers": "flight, super strength, super speed, enhanced durability",
+      "weapons": "energy blasts",
+      "team": "Avengers",
+      "quote": "Higher, further, faster, baby."
+    },
+    {
+      "id": 16,
+      "name": "Wolverine",
+      "image": "https://thumbs.gfycat.com/AdoredMealyClumber.webp",
+      "powers": "healing factor, adamatium covered skeleton",
+      "weapons": "retractable adamantium claws",
+      "team": "X-men",
+      "quote": "I'm The Best There Is At What I Do But What I Do Best Isn't Very Nice."
+    },
+    {
+      "id": 17,
+      "name": "Jean Grey",
+      "image": "https://thumbs.gfycat.com/GiddyAggressiveAnemonecrab.webp",
+      "powers": "telepathy, telekinesis",
+      "weapons": "psychic blasts, phoenix force",
+      "team": "X-men",
+      "quote": "I Know What Everybody Feels."
+    },
+    {
+      "id": 18,
+      "name": "Cyclops",
+      "image": "https://thumbs.gfycat.com/YawningFrighteningBeardeddragon.webp",
+      "powers": "optic blasts",
+      "weapons": "optic blasts",
+      "team": "X-men",
+      "quote": "That's why I am a leader. The blind leading the blind, maybe... but a leader nonetheless."
+    },
+    {
+      "id": 19,
+      "name": "Professor X/Charles Xavier",
+      "image": "https://media2.giphy.com/media/d2YYgKpv8MnvF20M/200w.webp?cid=ecf05e4774zohfcnwbqn4lmo2c6ji9iec5i9gny978lt9uk6&rid=200w.webp&ct=g",
+      "powers": "telepathy",
+      "weapons": "psychic blasts",
+      "team": "X-men",
+      "quote": "Just because someone stumbles and loses their path, doesn’t mean they’re lost forever."
+    },
+    {
+      "id": 20,
+      "name": "Storm",
+      "image": "https://media3.giphy.com/media/xTiQyEIWhGup1JDFrq/200w.webp?cid=ecf05e47lc4qkm7zm79lht9ei6pbnqnwr5ib0v2x05pnnd3x&rid=200w.webp&ct=g",
+      "powers": "weather manipulation",
+      "weapons": "lightning, wind",
+      "team": "X-men",
+      "quote": "Are you ready to do what you need to do when the time comes?"
+    },
+    {
+      "id": 21,
+      "name": "Mystique",
+      "image": "https://thumbs.gfycat.com/ColdLoathsomeIguanodon.webp",
+      "powers": "shapeshifting",
+      "weapons": "none",
+      "team": "X-men",
+      "quote": "I have work to do… after a quick change!"
+    }
+  ],
+  "slides": [
+    {
+      "id": 1,
+      "image": "https://media2.giphy.com/media/l2QZXqfxmtgXIDOPS/giphy.gif?cid=790b7611db0d15296d83085fabefdbc7d6fee22d1b00c214&rid=giphy.gif&ct=g"
+    },
+    {
+      "id": 2,
+      "image": "https://media2.giphy.com/media/AqfOVseMPDVja/giphy.gif?cid=790b761197bcd049128129edda81386a92a16c92a5b49a46&rid=giphy.gif&ct=g"
+    },
+    {
+      "id": 3,
+      "image": "https://media2.giphy.com/media/xT9DPtjydKl5FQJKIE/giphy.gif?cid=790b76115fdf37ec8952d0f6cf1488df801fabf9ba22d71b&rid=giphy.gif&ct=g"
+    },
+    {
+      "id": 4,
+      "image": "https://thumbs.gfycat.com/ArcticUnsteadyEyelashpitviper.webp"
+    },
+    {
+      "id": 5,
+      "image": "https://media1.giphy.com/media/ygizJv7z4cvcBnF47d/giphy.gif?cid=790b7611496b6c87d057658798a5dedae12fc9363411631f&rid=giphy.gif&ct=g"
+    },
+    {
+      "id": 6,
+      "image": "https://media1.giphy.com/media/5g1tx6kE8l3Aa8bGlO/200.webp?cid=ecf05e47vmtfof9302hykpotsh9ws31gdmtn6rwtc5u5397q&rid=200.webp&ct=g"
+    },
+    {
+      "id": 7,
+      "image": "https://media1.giphy.com/media/dUjcZYXKX1ckqW7z0e/giphy.gif?cid=ecf05e47qwbc6e3e6fb2hb1lfz29h9dx66uad155nrw5h6b2&rid=giphy.gif&ct=g"
+    },
+    {
+      "id": 8,
+      "image": "https://media3.giphy.com/media/3o7WTwcO5cLAVL5Z7O/200.webp?cid=ecf05e475nt20d07e5bxnx88h41ss358z9fuyl3d9cq3udl5&rid=200.webp&ct=g"
+    },
+    {
+      "id": 9,
+      "image": "https://media1.giphy.com/media/3o7abJW5ZuiByDelji/giphy.gif?cid=790b761107bbf30b76cf51e08e61da4fed04de7fcc149e47&rid=giphy.gif&ct=g"
+    },
+    {
+      "id": 10,
+      "image": "https://comicvine.gamespot.com/a/uploads/original/11134/111347991/6722049-aquaman2.gif"
+    },
+    {
+      "id": 11,
+      "image": "https://thumbs.gfycat.com/LongBountifulDingo.webp"
+    },
+    {
+      "id": 12,
+      "image": "https://thumbs.gfycat.com/DeliriousGlaringArawana.webp"
+    },
+    {
+      "id": 13,
+      "image": "https://thumbs.gfycat.com/BadFreshFrillneckedlizard.webp"
+    },
+    {
+      "id": 14,
+      "image": "https://thumbs.gfycat.com/BabyishQuerulousBlackbird.webp"
+    },
+    {
+      "id": 15,
+      "image": "https://thumbs.gfycat.com/CalculatingRealisticAzurewingedmagpie.webp"
+    },
+    {
+      "id": 16,
+      "image": "https://thumbs.gfycat.com/AromaticSparklingGoral.webp"
+    },
+    {
+      "id": 17,
+      "image": "https://thumbs.gfycat.com/ComplicatedPitifulAsiaticgreaterfreshwaterclam.webp"
+    },
+    {
+      "id": 18,
+      "image": "https://thumbs.gfycat.com/PalatableWindyConey.webp"
+    },
+    {
+      "id": 19,
+      "image": "https://thumbs.gfycat.com/LargeDownrightBird.webp"
+    },
+    {
+      "id": 20,
+      "image": "https://media.tenor.com/gAu-5D85UasAAAAC/hulk-power-slap.gif"
+    },
+    {
+      "id": 21,
+      "image": "https://64.media.tumblr.com/a6157765732d1a3ca5b2d07c873a1cd6/tumblr_nyrq6awSgg1sxwyufo3_540.gifv"
+    },
+    {
+      "id": 22,
+      "image": "https://media1.giphy.com/media/103liSxCY1NpLO/giphy.gif?cid=790b76117ab120b8d68f4f210c0847ff53b0902255c186e2&rid=giphy.gif&ct=g"
+    },
+    {
+      "id": 23,
+      "image": "https://media3.giphy.com/media/pL6mkjytFkTlekNMtM/giphy.gif?cid=790b7611e39ff08e90bd5eb96cf73f63124c9cb0761cda6f&rid=giphy.gif&ct=g"
+    },
+    {
+      "id": 24,
+      "image": "https://media4.giphy.com/media/KUA5cwnAVVKSxzeRM1/giphy.gif?cid=790b7611babbea2347c4cb3c6a1ca09e19246ee671997241&rid=giphy.gif&ct=g"
+    },
+    {
+      "id": 25,
+      "image": "https://media1.giphy.com/media/oJFfKzLKROzhR8Vxuq/giphy.gif?cid=790b7611e0676f4577fe6b591cde50fdb67d56ed2631caab&rid=giphy.gif&ct=g"
+    },
+    {
+      "id": 26,
+      "image": "https://media1.giphy.com/media/8P1ugJO2Tw9Usg0JJK/giphy.gif?cid=790b7611e1bf8a2be55248abd0a611d8a086cd890b334f17&rid=giphy.gif&ct=g"
+    },
+    {
+      "id": 27,
+      "image": "https://media2.giphy.com/media/1kh3Tjz9EBmU3uwpdP/giphy.gif?cid=790b7611736147d853ac832e4eb1ad124cd13bb426abcbe8&rid=giphy.gif&ct=g"
+    },
+    {
+      "id": 28,
+      "image": "https://thumbs.gfycat.com/HarmoniousSpottedKouprey.webp"
+    },
+    {
+      "id": 29,
+      "image": "https://thumbs.gfycat.com/ThirdLightLadybird.webp"
+    },
+    {
+      "id": 30,
+      "image": "https://media1.giphy.com/media/PUkc1nBeiekNy/giphy.gif?cid=ecf05e47gf0l7e9wgd4q40rsoo1162jx48gm7nmuotfg1dp4&rid=giphy.gif&ct=g"
+    },
+    {
+      "id": 31,
+      "image": "https://thumbs.gfycat.com/AltruisticDisfiguredBellsnake.webp"
+    },
+    {
+      "id": 32,
+      "image": "https://thumbs.gfycat.com/EthicalShabbyEskimodog.webp"
+    },
+    {
+      "id": 33,
+      "image": "https://thumbs.gfycat.com/MemorableWhiteAcouchi.webp"
+    },
+    {
+      "id": 34,
+      "image": "https://thumbs.gfycat.com/WeakUnfinishedIvorybackedwoodswallow.webp"
+    }
+  ]
+}
