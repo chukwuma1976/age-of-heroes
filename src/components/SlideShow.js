@@ -11,7 +11,10 @@ function SlideShow (){
     const displaySlides = slides.map(slide=><img key={slide.id} src={slide.image} alt="action scene" className="slide" />)
 
     return (
-        <div>{displaySlides}</div>
+        <div class="slide-container">
+            <h2>Heroes In Action</h2>
+            {displaySlides}
+        </div>
     )
 }
 export default SlideShow;
