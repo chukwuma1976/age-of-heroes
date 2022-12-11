@@ -1,6 +1,7 @@
-import React, { useEffect} from "react";
+import React, { useEffect, useState} from "react";
 import HeroProfile from "./HeroProfile";
 import FindByName from "./FindByName";
+import FilterByTeam from "./FilterByTeam";
 
 function DisplayHeroes({heroesList, setHeroesList}){
     
@@ -9,12 +10,33 @@ function DisplayHeroes({heroesList, setHeroesList}){
         .then(res=>res.json())
         .then(heroes=>setHeroesList(heroes))
     }, [])
-    const displayedHeroes = heroesList.map(hero=><HeroProfile key={hero.id} hero={hero} />)
+
+    const [byName, setByName] = useState("")
+    function handleFind(event){
+        setByName(event.target.value.toLowerCase())
+    }
+
+    const filteredHeroes = heroesList.filter((hero)=>{
+        if (byName===""){return true}
+            else {return hero.name.toLowerCase().includes(byName)}
+    })
+    
+    const [byTeam, setByTeam] = useState("none")
+    function handleFilter(event){
+        console.log(event.target.value)
+    }
+    // const filteredByNameAndTeam = filteredHeroes.filter(()=>{
+    //     if (byTeam==="none"){return true}
+    //         else {return hero.team===byTeam}
+    // })
+
+    const displayedHeroes = filteredHeroes.map(hero=><HeroProfile key={hero.id} hero={hero} />)
 
     return (
         <div>
             <h1>Welcome To Our Superhero Codex</h1>
-            <FindByName />
+            <FindByName handleChange={handleFind}/>
+            <FilterByTeam handleChange={handleFilter}/>
             {displayedHeroes}
         </div>
     )
