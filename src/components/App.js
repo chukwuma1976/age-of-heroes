@@ -13,8 +13,8 @@ function App() {
     <div>
       <NavBar />
       <Home />
-      {/* <DisplayHeroes heroesList={heroesList} setHeroesList={setHeroesList} />
-      <AddHero heroesList={heroesList} setHeroesList={setHeroesList} /> */}
+      <DisplayHeroes heroesList={heroesList} setHeroesList={setHeroesList} />
+      <AddHero heroesList={heroesList} setHeroesList={setHeroesList} />
       <SlideShow />
     </div>
   );

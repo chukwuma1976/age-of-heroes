@@ -14,7 +14,6 @@ const linkStyles = {
 function NavBar(){
     return (
         <div>
-          <h1>Age of Heroes</h1>
           <NavLink
             to="/"
             exact

@@ -33,19 +33,49 @@ function AddHero ({heroesList, setHeroesList}){
             <h4>The world needs heroes like you.  Please register below.</h4>
             <form onSubmit={handleSubmit}>
                 <label>Code Name </label>
-                <input type="text" name="name" placeholder="Code Name" value={name} onChange={handleChange} />
+                <input 
+                    type="text" 
+                    name="name" 
+                    placeholder="Code Name" 
+                    value={name} 
+                    onChange={handleChange} 
+                />
                 <br/>
                 <label>Image URL </label>
-                <input type="text" name="image" placeholder="Image" value={image} onChange={handleChange}/>
+                <input 
+                    type="text" 
+                    name="image" 
+                    placeholder="Image"
+                    value={image} 
+                    onChange={handleChange}
+                />
                 <br/>
                 <label>Powers </label>
-                <input type="text" name="powers" placeholder="Powers" value={powers} onChange={handleChange}/>
+                <input 
+                    type="text" 
+                    name="powers" 
+                    placeholder="Powers" 
+                    value={powers} 
+                    onChange={handleChange}
+                />
                 <br/>
                 <label>Weapons </label>
-                <input type="text" name="weapons" placeholder="Weapons" value={weapons} onChange={handleChange}/>
+                <input 
+                    type="text" 
+                    name="weapons" 
+                    placeholder="Weapons" 
+                    value={weapons} 
+                    onChange={handleChange}
+                />
                 <br/>
-                <label>Famous Saying </label>
-                <input type="text" name="quote" placeholder="Famous Saying" value={quote} onChange={handleChange}/>
+                <label>Catch Phrase </label>
+                <input 
+                    type="text" 
+                    name="quote" 
+                    placeholder="Catch Phrase" 
+                    value={quote} 
+                    onChange={handleChange}
+                />
                 <br/>
                 <label>Pick a team</label>
                 <select name="team" onChange={handleChange}>

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect} from "react";
 import HeroProfile from "./HeroProfile";
 
 function DisplayHeroes({heroesList, setHeroesList}){
@@ -12,6 +12,7 @@ function DisplayHeroes({heroesList, setHeroesList}){
 
     return (
         <div>
+            <h1>Welcome To Our Superhero Codex</h1>
             {displayedHeroes}
         </div>
     )

@@ -1,7 +1,7 @@
 import React from "react";
 
 function Home(){
-    return <div>Home Page</div>
+    return <div>Welcome to the Age of Heroes</div>
 }
 
 export default Home;
