@@ -19,10 +19,11 @@ In the project directory, you can run:
 `npm install` to install dependencies
 
 `json-server --watch db.json`
-Open [http://localhost:3000](http://localhost:3000) to run json server.
+Open [http://localhost:3000/heroes] to run json server.
+Open [http://localhost:3000/slides] to run json server.
 
 `npm start`
-Open [http://localhost:3001](http://localhost:3001) to view it in your browser.
+Open [http://localhost:3001] to view it in your browser.
 
 All images and gifs used were obtained mainly from https://giphy.com/ and https://gfycat.com/.  Images were also obtained from google images.
 
