@@ -23,3 +23,7 @@ Open [http://localhost:3000](http://localhost:3000) to run json server.
 
 `npm start`
 Open [http://localhost:3001](http://localhost:3001) to view it in your browser.
+
+All images and gifs used were obtained mainly from https://giphy.com/ and https://gfycat.com/.  Images were also obtained from google images.
+
+I thank Joseph Campbell for his description of the Hero's Journey which I used for my Home Page.
