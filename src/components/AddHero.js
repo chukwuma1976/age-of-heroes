@@ -27,6 +27,9 @@ function AddHero ({heroesList, setHeroesList}){
             .then(hero=>setHeroesList([...heroesList, hero]))
         console.log(heroesList)
     }
+    const justiceLeagueSymbol = ""
+    const avengersSymbol = ""
+    const xmenSymbol = ""
     
     return (
         <div className="registration">
@@ -87,6 +90,7 @@ function AddHero ({heroesList, setHeroesList}){
                 <br/>
                 <button type="submit">Register Now</button>
             </form>
+            <div></div>
         </div>
     )
 }

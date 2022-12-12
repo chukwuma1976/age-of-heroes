@@ -6,7 +6,7 @@ function HeroProfile({hero}){
     return (
         <div className={display? "profile-display": "profile"} onClick={()=>setDisplay(!display)}>
             <h3>{hero.name}</h3>
-            <img src={hero.image} alt={hero.name} class="profile-image"/>
+            <img src={hero.image} alt={hero.name} className="profile-image"/>
             <p>{display? "Hide information" : "Learn more about this hero"}</p>
             {!display? null : (
                 <ul>
