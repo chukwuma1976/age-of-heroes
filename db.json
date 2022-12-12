@@ -188,6 +188,15 @@
       "weapons": "camoflage",
       "team": "X-men",
       "quote": "I have work to do… after a quick change!"
+    },
+    {
+      "name": "Neo",
+      "image": "",
+      "powers": "anything",
+      "weapons": "lots",
+      "team": "Justice League",
+      "quote": "I know kungfu",
+      "id": 22
     }
   ],
   "slides": [

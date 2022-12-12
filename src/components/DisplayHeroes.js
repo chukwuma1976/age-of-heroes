@@ -1,15 +1,9 @@
-import React, { useEffect, useState} from "react";
+import React, {useState} from "react";
 import HeroProfile from "./HeroProfile";
 import FindByName from "./FindByName";
 import FilterByTeam from "./FilterByTeam";
 
-function DisplayHeroes({heroesList, setHeroesList}){
-    
-    useEffect(()=>{
-        fetch("http://localhost:3000/heroes")
-        .then(res=>res.json())
-        .then(heroes=>setHeroesList(heroes))
-    }, [])
+function DisplayHeroes({heroesList}){
 
     const [byName, setByName] = useState("")
     function handleFind(event){

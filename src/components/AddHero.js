@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-function AddHero ({heroesList, setHeroesList}){
+function AddHero ({addNewHero}){
 
     const [newHero, setNewHero] = useState({
         name: "",
@@ -24,8 +24,7 @@ function AddHero ({heroesList, setHeroesList}){
                 body: JSON.stringify(newHero)
             })
             .then(res=>res.json())
-            .then(hero=>setHeroesList([...heroesList, hero]))
-        console.log(heroesList)
+            .then(hero=>addNewHero(hero))
     }
     const justiceLeagueSymbol = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpufklrQw-B7ZuUKU5AYSCcbd8saHgbE4T4Q&usqp=CAU"
     const avengersSymbol = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0g1mLUq06zSJgaJfAHSSl-5EPVcW5ePwLvg&usqp=CAU"
