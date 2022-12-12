@@ -71,9 +71,11 @@ h1, h3 {
 .filter {
   text-align: center;
 }
+
 ul {
   font-size: 14px;
 }
+
 .navbar {
   display: inline-block;
   width: 110px;
@@ -81,4 +83,15 @@ ul {
   margin: 0 6px 6px;
   background: blue;
   color: white
-};
+}
+
+.form-logos {
+  display: inline-block;
+  padding: 20px
+}
+.form-logos img {
+  height: 100px;
+  width: 100px
+}
+
+

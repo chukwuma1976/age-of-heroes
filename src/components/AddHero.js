@@ -27,9 +27,9 @@ function AddHero ({heroesList, setHeroesList}){
             .then(hero=>setHeroesList([...heroesList, hero]))
         console.log(heroesList)
     }
-    const justiceLeagueSymbol = ""
-    const avengersSymbol = ""
-    const xmenSymbol = ""
+    const justiceLeagueSymbol = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpufklrQw-B7ZuUKU5AYSCcbd8saHgbE4T4Q&usqp=CAU"
+    const avengersSymbol = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0g1mLUq06zSJgaJfAHSSl-5EPVcW5ePwLvg&usqp=CAU"
+    const xmenSymbol = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtGKOCC36vFkYH7eqXce66vtlJAkxxFSDR7g&usqp=CAU"
     
     return (
         <div className="registration">
@@ -90,7 +90,11 @@ function AddHero ({heroesList, setHeroesList}){
                 <br/>
                 <button type="submit">Register Now</button>
             </form>
-            <div></div>
+            <div className="form-logos">
+                <img src={justiceLeagueSymbol} alt="Justice League symbol" />
+                <img src={avengersSymbol} alt="Avengers symbol" />
+                <img src={xmenSymbol} alt="X-men symbol" />
+            </div>
         </div>
     )
 }

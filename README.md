@@ -1,3 +1,11 @@
+Welcome to Age Of Heroes
+
+This is an interactive application that allows to the user to tap into the heroic side of themselves.  This was created with the latest version of React.
+
+It consists of four main sections.  The user can navigate through these four sectios using the navigation bar.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

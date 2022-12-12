@@ -10,6 +10,7 @@ function SlideShow (){
         .then(res=>res.json())
         .then(slides=>setSlides(slides))
     }, [])
+
     useEffect(()=>{
         let intervalID=setInterval(()=>setIndex(Math.ceil(Math.random() * slides.length)), 5000)
         return function(){clearInterval(intervalID)}
