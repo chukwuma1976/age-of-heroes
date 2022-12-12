@@ -2,7 +2,7 @@
   "heroes": [
     {
       "id": 1,
-      "name": "Superman",
+      "name": "Superman (Clark Kent/Kal-El)",
       "image": "https://media0.giphy.com/media/3o6ZtqfJ38C7Yih5xm/200w.webp?cid=ecf05e47jxo7qo0x02xmxyetgke8rwi1ppjkqprbbjnh0vap&rid=200w.webp&ct=g",
       "powers": "flight, super strength, super speed, enhanced senses, enhanced durability",
       "weapons": "heat vision, freeze breath",
@@ -11,7 +11,7 @@
     },
     {
       "id": 2,
-      "name": "Batman",
+      "name": "Batman (Bruce Wayne)",
       "image": "https://media1.giphy.com/media/C7RCCFdaixA3u/giphy.gif?cid=ecf05e47bm9qqmunwsk3bzdnw9p4oyp2su5tght7tvjxoghn&rid=giphy.gif&ct=g",
       "powers": "peak human strength and agility, genius level intellect, immense wealth",
       "weapons": "utility belt, grappling gun, batarangs",
@@ -20,43 +20,43 @@
     },
     {
       "id": 3,
-      "name": "Wonder Woman",
+      "name": "Wonder Woman (Diana Prince)",
       "image": "https://media2.giphy.com/media/8cVE0r50yyRYlgqekf/200w.webp?cid=ecf05e47qvpp95k2vntaknjt1mx0kvvpp4d9zobynq6dgtwz&rid=200w.webp&ct=g",
       "powers": "super strength, super speed, superior combat skills",
-      "weapons": "lasso of truth, bullet proof bracelets, sword, shield",
+      "weapons": "lasso of truth, bullet proof gauntlets, sword, shield",
       "team": "Justice League",
       "quote": "I Will Fight For Those Who Cannot Fight For Themselves."
     },
     {
       "id": 4,
-      "name": "The Flash",
+      "name": "The Flash (Barry Allen)",
       "image": "https://media1.giphy.com/media/xUOxeZUc8UFwMgH2MM/200w.webp?cid=ecf05e476xqe341xc022qztdyl3kem7z72z954g0px6b5trn&rid=200w.webp&ct=g",
-      "powers": "abilty to move, think, and react at light speed",
+      "powers": "abilty to move, think, and react at or beyond the speed of light",
       "weapons": "electrokinesis",
       "team": "Justice League",
       "quote": "I've spent my whole life searching for the impossible, never imagining that I would become the impossible"
     },
     {
       "id": 5,
-      "name": "Aquaman",
+      "name": "Aquaman (Arthur Curry)",
       "image": "https://comicvine.gamespot.com/a/uploads/original/11124/111241908/7650941-e16372a6-281e-4f9d-a672-d552fe4bd72d.gif",
       "powers": "super strength, enhanced durabilty, ability to swim at hypersonic speed, abiltity to communicate with all marine life",
       "weapons": "trident",
       "team": "Justice League",
-      "quote": "Okay, so we're doing things a little out of order. S*** happens...My Man"
+      "quote": "Okay, so we're doing things a little out of order. S*** happens."
     },
     {
       "id": 6,
-      "name": "Cyborg",
+      "name": "Cyborg (Victor Stone)",
       "image": "https://j.gifs.com/zmwGLZ.gif",
-      "powers": "flight, super strength, super speed, enhanced senses, enhanced durability",
-      "weapons": "cybernetic implants which can form weapons",
+      "powers": "flight, super strength, super speed, technopathy, enhanced durability",
+      "weapons": "cybernetic prosthesis which can form weapons",
       "team": "Justice League",
       "quote": "You Want Me To Use These Gifts, Right? That's What I'll Do."
     },
     {
       "id": 7,
-      "name": "Martian Manhunter",
+      "name": "Martian Manhunter (J'Onn J'Onzz)",
       "image": "https://64.media.tumblr.com/83b61c7de426b21464d232860e17502c/35477471762b828c-56/s500x750/5144aa100cc02d53b244eecc0503d1f81af85aff.gif",
       "powers": "flight, super strength, super speed, telpathy, shapeshifting, phasing",
       "weapons": "psychic blasts",
@@ -65,7 +65,7 @@
     },
     {
       "id": 8,
-      "name": "Iron Man",
+      "name": "Iron Man (Tony Stark)",
       "image": "https://media3.giphy.com/media/a6U7oJQXFMieA/giphy.webp?cid=ecf05e47zgzslsl07175sylbwx1hpchtxdhe9xv4fu3h9qva&rid=giphy.webp&ct=g",
       "powers": "peak human intellengence and ingenuity, wealth",
       "weapons": "Exosuit which grants flight, strength, and repulsor weapons",
@@ -74,7 +74,7 @@
     },
     {
       "id": 9,
-      "name": "Captain America",
+      "name": "Captain America (Steve Rogers)",
       "image": "https://media4.giphy.com/media/ULrXjdLIA5M5O/200w.webp?cid=ecf05e4787b6csrh5fepfd1747itjrecnjzmr53e16rewowt&rid=200w.webp&ct=g",
       "powers": "peak human strength and combat skill, master tactitian",
       "weapons": "Vibranium shield",
@@ -83,7 +83,7 @@
     },
     {
       "id": 10,
-      "name": "Hulk",
+      "name": "Hulk (Bruce Banner)",
       "image": "https://media3.giphy.com/media/aS8ypUweGOXMA/200w.webp?cid=ecf05e47d09aptuc8h4sib8emi7r9irr83pplyebjf4l09ja&rid=200w.webp&ct=g",
       "powers": "enhanced strength which increases the madder he gets",
       "weapons": "Thunder clap",
@@ -92,7 +92,7 @@
     },
     {
       "id": 11,
-      "name": "Thor",
+      "name": "Thor (Thor Odinson)",
       "image": "https://media3.giphy.com/media/3ov9k1J6jahVhiev0Q/100.webp?cid=ecf05e47tturrlclncdpiq31b4n24uuwsctroyr3p45iwafh&rid=100.webp&ct=g",
       "powers": "super strength, super speed, superior combat skills",
       "weapons": "Mjolnir, Stormbreaker",
@@ -101,7 +101,7 @@
     },
     {
       "id": 12,
-      "name": "Black Panther",
+      "name": "Black Panther (T'Challa)",
       "image": "https://thumbs.gfycat.com/RecentCreepyCockroach-size_restricted.gif",
       "powers": "super strength, super speed, superior combat skills",
       "weapons": "Vibranium cat suit with retractable claws",
@@ -110,7 +110,7 @@
     },
     {
       "id": 13,
-      "name": "Spiderman",
+      "name": "Spiderman (Peter Parker)",
       "image": "https://media.tenor.com/LAM1mZaOqy4AAAAd/spiderman-swing.gif",
       "powers": "super strength, super agility, spider sense, wall climbing",
       "weapons": "web shooters",
@@ -119,7 +119,7 @@
     },
     {
       "id": 14,
-      "name": "Doctor Strange",
+      "name": "Doctor Strange (Stephen Strange MD/PhD)",
       "image": "https://media1.giphy.com/media/kItp7SxtBjqMkNJMrU/200w.webp?cid=ecf05e47cpi4tby08qluhcgf1ygrwiroh2ht7fof9mwz0idt&rid=200w.webp&ct=g",
       "powers": "master of the mystic arts",
       "weapons": "cloak of levitation, bands of Cyttorak, magical constructs",
@@ -128,7 +128,7 @@
     },
     {
       "id": 15,
-      "name": "Captain Marvel",
+      "name": "Captain Marvel (Carol Danvers)",
       "image": "https://media3.giphy.com/media/1kh3Tjz9EBmU3uwpdP/200w.webp?cid=ecf05e47ldz750mn7feei1o4y268wkp085fy9azaqfxaf28z&rid=200w.webp&ct=g",
       "powers": "flight, super strength, super speed, enhanced durability",
       "weapons": "energy blasts",
@@ -137,7 +137,7 @@
     },
     {
       "id": 16,
-      "name": "Wolverine",
+      "name": "Wolverine (Logan/James Howlett)",
       "image": "https://thumbs.gfycat.com/AdoredMealyClumber.webp",
       "powers": "healing factor, adamatium covered skeleton",
       "weapons": "retractable adamantium claws",
@@ -146,7 +146,7 @@
     },
     {
       "id": 17,
-      "name": "Jean Grey",
+      "name": "Marvel Girl (Jean Grey)",
       "image": "https://thumbs.gfycat.com/GiddyAggressiveAnemonecrab.webp",
       "powers": "telepathy, telekinesis",
       "weapons": "psychic blasts, phoenix force",
@@ -155,7 +155,7 @@
     },
     {
       "id": 18,
-      "name": "Cyclops",
+      "name": "Cyclops (Scott Summers)",
       "image": "https://thumbs.gfycat.com/YawningFrighteningBeardeddragon.webp",
       "powers": "optic blasts",
       "weapons": "optic blasts",
@@ -164,7 +164,7 @@
     },
     {
       "id": 19,
-      "name": "Professor X/Charles Xavier",
+      "name": "Professor X (Charles Xavier)",
       "image": "https://media2.giphy.com/media/d2YYgKpv8MnvF20M/200w.webp?cid=ecf05e4774zohfcnwbqn4lmo2c6ji9iec5i9gny978lt9uk6&rid=200w.webp&ct=g",
       "powers": "telepathy",
       "weapons": "psychic blasts",
@@ -173,7 +173,7 @@
     },
     {
       "id": 20,
-      "name": "Storm",
+      "name": "Storm (Ororo Monroe)",
       "image": "https://media3.giphy.com/media/xTiQyEIWhGup1JDFrq/200w.webp?cid=ecf05e47lc4qkm7zm79lht9ei6pbnqnwr5ib0v2x05pnnd3x&rid=200w.webp&ct=g",
       "powers": "weather manipulation",
       "weapons": "lightning, wind",
@@ -182,10 +182,10 @@
     },
     {
       "id": 21,
-      "name": "Mystique",
+      "name": "Mystique (Raven Darkholme)",
       "image": "https://thumbs.gfycat.com/ColdLoathsomeIguanodon.webp",
       "powers": "shapeshifting",
-      "weapons": "none",
+      "weapons": "camoflage",
       "team": "X-men",
       "quote": "I have work to do… after a quick change!"
     }

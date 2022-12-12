@@ -29,7 +29,6 @@ function DisplayHeroes({heroesList, setHeroesList}){
         if (byTeam==="none"){return true}
             else {return hero.team===byTeam}
     })
-    console.log("Team Affiliation", byTeam, "  Array By Team",  filteredByNameAndTeam)
 
     const displayedHeroes = filteredByNameAndTeam.map(hero=><HeroProfile key={hero.id} hero={hero} />)
 

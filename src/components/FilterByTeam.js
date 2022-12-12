@@ -2,8 +2,8 @@ import React from "react";
 
 function FilterByTeam({handleChange}){
     return (
-        <div>
-            <label>Search by Team Affiliation</label>
+        <div className="filter">
+            <label>Search by Team Affiliation: </label>
             <select name="team" onChange={handleChange}>
                 <option value="none"></option>
                 <option value="Justice League">Justice League</option>
