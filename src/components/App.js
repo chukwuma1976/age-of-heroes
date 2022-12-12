@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import { Route, Routes } from "react-router-dom";
 import NavBar from "./NavBar";
 import AddHero from "./AddHero";
 import DisplayHeroes from "./DisplayHeroes";
@@ -12,10 +13,12 @@ function App() {
   return (
     <div>
       <NavBar />
-      <Home />
-      <DisplayHeroes heroesList={heroesList} setHeroesList={setHeroesList} />
-      <AddHero heroesList={heroesList} setHeroesList={setHeroesList} />
-      <SlideShow />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/displayheroes" element={<DisplayHeroes heroesList={heroesList} setHeroesList={setHeroesList} />} />
+        <Route path="/addhero" element={<AddHero heroesList={heroesList} setHeroesList={setHeroesList} />} />
+        <Route path="/slideshow" element={<SlideShow />} />
+      </Routes>
     </div>
   );
 }
