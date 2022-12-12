@@ -188,6 +188,15 @@
       "weapons": "camoflage",
       "team": "X-men",
       "quote": "I have work to do… after a quick change!"
+    },
+    {
+      "name": "Neo",
+      "image": "https://media2.giphy.com/media/eIm624c8nnNbiG0V3g/200w.webp?cid=ecf05e47r3sh6jnw62bumobim2dn6arpjx2wot3st4zifwrk&rid=200w.webp&ct=g",
+      "powers": "super strength, speed, knows kung fu",
+      "weapons": "plugged into the matrix",
+      "team": "Avengers",
+      "quote": "I know kungfu",
+      "id": 22
     }
   ],
   "slides": [
