@@ -15,8 +15,14 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/displayheroes" element={<DisplayHeroes heroesList={heroesList} setHeroesList={setHeroesList} />} />
-        <Route path="/addhero" element={<AddHero heroesList={heroesList} setHeroesList={setHeroesList} />} />
+        <Route 
+          path="/displayheroes" 
+          element={<DisplayHeroes heroesList={heroesList} setHeroesList={setHeroesList} />} 
+        />
+        <Route 
+          path="/addhero" 
+          element={<AddHero heroesList={heroesList} setHeroesList={setHeroesList} />} 
+        />
         <Route path="/slideshow" element={<SlideShow />} />
       </Routes>
     </div>

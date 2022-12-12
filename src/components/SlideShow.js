@@ -22,7 +22,7 @@ function SlideShow (){
     })
     
     return (
-        <div class="slide-container">
+        <div className="slide-container">
             <h2>Heroes In Action</h2>
             {displaySlides}
         </div>

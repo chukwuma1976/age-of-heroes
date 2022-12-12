@@ -72,5 +72,12 @@ h1, h3 {
 }
 ul {
   font-size: 14px;
-  overflow-wrap: break-word;
 }
+.navbar {
+  display: inline-block;
+  width: 110px;
+  padding: 10px;
+  margin: 0 6px 6px;
+  background: blue;
+  color: white
+};
