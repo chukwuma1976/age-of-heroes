@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 function SlideShow (){
     const [slides, setSlides] = useState([])
-    const [index, setIndex] = useState([1])
+    const [index, setIndex] = useState(null)
 
     useEffect(()=>{
         fetch("http://localhost:3000/slides")
@@ -13,9 +13,10 @@ function SlideShow (){
 
     useEffect(()=>{
         let intervalID=setInterval(()=>setIndex(Math.ceil(Math.random() * slides.length)), 5000)
+        console.log("This is index ",index, "and This is Interval ID",intervalID)
         return function(){clearInterval(intervalID)}
     }, [index])
-
+    
     const displaySlides = slides.map(slide=>{
         if (slide.id===index) {
             return <img key={slide.id} src={slide.image} alt="action scene" className="slide" />
@@ -25,7 +26,8 @@ function SlideShow (){
     return (
         <div className="slide-container">
             <h2>Heroes In Action</h2>
-            {displaySlides}
+            {index===null? <h1>Loading Images...</h1> : displaySlides}
+            {/* {displaySlides} */}
         </div>
     )
 }
