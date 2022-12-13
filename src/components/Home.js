@@ -3,7 +3,7 @@ import { NavLink} from "react-router-dom";
 
 function Home(){
     return (
-        <div>
+        <div className="home-page">
             <h1 className="title">WELCOME TO THE AGE OF HEROES</h1>
             <h3>The Hero's Journey according to Joseph Campbell</h3>
             <h3>examines the stages of the hero who goes on an adventure,</h3>
@@ -21,6 +21,7 @@ function Home(){
                     Maybe you just want to see some cool action!  Click here, We got what you need!
                 </NavLink>
             </div>   
+            <img src="https://p.kindpng.com/picc/s/465-4655655_transparent-marvel-heroes-png-png-download.png" alt="superhero banner"/>
         </div>
         )
 }

@@ -109,3 +109,8 @@ ul {
 .title {
   color: darkslategrey
 }
+
+.home-page {
+  background: whitesmoke;
+  text-align: center;
+}
