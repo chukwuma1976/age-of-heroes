@@ -13,7 +13,6 @@ function SlideShow (){
 
     useEffect(()=>{
         let intervalID=setInterval(()=>setIndex(Math.ceil(Math.random() * slides.length)), 5000)
-        console.log("This is index ",index, "and This is Interval ID",intervalID)
         return function(){clearInterval(intervalID)}
     }, [index])
     
@@ -27,7 +26,6 @@ function SlideShow (){
         <div className="slide-container">
             <h2>Heroes In Action</h2>
             {index===null? <h1>Loading Images...</h1> : displaySlides}
-            {/* {displaySlides} */}
         </div>
     )
 }
