@@ -215,6 +215,15 @@
       "team": "none",
       "quote": "I will not let you destroy my world!",
       "id": 24
+    },
+    {
+      "name": "War Machine (James Rhodes)",
+      "image": "https://i.pinimg.com/originals/ef/1b/6f/ef1b6ffed6e1e336a394ac00da4815f4.gif",
+      "powers": "exosuit which grants flight and super strength",
+      "weapons": "mounted guns",
+      "team": "Avengers",
+      "quote": "This lone gunslinger act is unecessary",
+      "id": 25
     }
   ],
   "slides": [

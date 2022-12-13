@@ -12,7 +12,8 @@ function SlideShow (){
     }, [])
 
     useEffect(()=>{
-        let intervalID=setInterval(()=>setIndex(Math.ceil(Math.random() * slides.length)), 5000)
+        let randomNumber = Math.ceil(Math.random() * slides.length)
+        const intervalID=setInterval(()=>setIndex(randomNumber), 5000)
         return function(){clearInterval(intervalID)}
     }, [index])
     
@@ -21,11 +22,12 @@ function SlideShow (){
             return <img key={slide.id} src={slide.image} alt="action scene" className="slide" />
         }
     })
+    const imgPlaceHolder = "https://www.mensjournal.com/wp-content/uploads/mf/justice-league-batman-superman-aquaman-trailer-1280.jpg?quality=86&strip=all"
     
     return (
         <div className="slide-container">
             <h2>Heroes In Action</h2>
-            {index===null? <h1>Loading Images...</h1> : displaySlides}
+            {index===null? <img src={imgPlaceHolder} className="slide" alt="Justice League" /> : displaySlides}
         </div>
     )
 }
