@@ -9,7 +9,7 @@ function AddHero ({addNewHero}){
         image: "",
         powers: "",
         weapons: "",
-        team: "",
+        team: "none",
         quote: ""
     })
     const {name, image, powers, weapons, quote} = newHero
