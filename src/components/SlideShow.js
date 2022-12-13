@@ -14,7 +14,7 @@ function SlideShow (){
     useEffect(()=>{
         let intervalID=setInterval(()=>setIndex(Math.ceil(Math.random() * slides.length)), 5000)
         return function(){clearInterval(intervalID)}
-    }, [slides.length, index])
+    }, [index])
 
     const displaySlides = slides.map(slide=>{
         if (slide.id===index) {

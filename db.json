@@ -197,6 +197,24 @@
       "team": "none",
       "quote": "I know kung fu",
       "id": 22
+    },
+    {
+      "name": "Gambit (Remy LeBeau)",
+      "image": "https://myownlittleshadow.files.wordpress.com/2016/09/gambitspin-tumblr-gifhunterress.gif",
+      "powers": "ability to charge objects with explosive energy",
+      "weapons": "anything in his hand is a weapon",
+      "team": "X-men",
+      "quote": "Engarde",
+      "id": 23
+    },
+    {
+      "name": "Goku (Son Goku)",
+      "image": "https://media2.giphy.com/media/I8RIA5dsQBXsCsX41V/200w.webp?cid=ecf05e476czr43gfxbqt3i8nu7rjirkaiytcs1fc0mt2ujgt&rid=200w.webp&ct=g",
+      "powers": "super strength, superspeed, martial arts",
+      "weapons": "Kamehameha attack",
+      "team": "none",
+      "quote": "I will not let you destroy my world!",
+      "id": 24
     }
   ],
   "slides": [
