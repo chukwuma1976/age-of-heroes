@@ -12,6 +12,8 @@ The third section is Become a Hero.  This consists of a registration form where 
 
 The fourth section is Heroes in Action.  This is a dynamic slide show which shows our heroes in some of their finest and most memorable moments.  It ranges from displays of flight, super speed, combat prowess, and more.
 
+Go to this link: https://youtu.be/xE3SXa69ibE for a demo on using this application so that you too can be a hero.
+
 ## To run this app
 
 In the project directory, you can run:
