@@ -4,7 +4,7 @@ import { NavLink} from "react-router-dom";
 function Home(){
     return (
         <div>
-            <h1>Welcome to the Age of Heroes</h1>
+            <h1 className="title">WELCOME TO THE AGE OF HEROES</h1>
             <h3>The Hero's Journey according to Joseph Campbell</h3>
             <h3>examines the stages of the hero who goes on an adventure,</h3>
             <h3>faces a crisis and wins, then returns victorious.</h3>
