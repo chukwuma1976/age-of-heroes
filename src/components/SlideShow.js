@@ -15,7 +15,7 @@ function SlideShow (){
         let randomNumber = Math.ceil(Math.random() * slides.length)
         const intervalID=setInterval(()=>setIndex(randomNumber), 5000)
         return function(){clearInterval(intervalID)}
-    }, [index])
+    }, [index, slides.length])
     
     const displaySlides = slides.map(slide=>{
         if (slide.id===index) {

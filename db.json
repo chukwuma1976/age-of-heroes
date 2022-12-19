@@ -224,6 +224,15 @@
       "team": "Avengers",
       "quote": "This lone gunslinger act is unecessary",
       "id": 25
+    },
+    {
+      "name": "Vision",
+      "image": "https://media.tenor.com/4ebE6EqgyJMAAAAC/avengers-infinity-war-vision.gif",
+      "powers": "super strength, speed, flight, phasing",
+      "weapons": "gem stone",
+      "team": "Avengers",
+      "quote": "Humans are odd. They think order and chaos are somehow opposites and... try to control what won't be. But there is grace in their failings.",
+      "id": 26
     }
   ],
   "slides": [
@@ -374,6 +383,10 @@
     {
       "id": 37,
       "image": "https://thumbs.gfycat.com/DarlingBitesizedLice-size_restricted.gif"
+    },
+    {
+      "id": 38,
+      "image": "https://www.icegif.com/wp-content/uploads/2022/04/icegif-421.gif"
     }
   ]
 }

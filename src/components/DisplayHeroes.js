@@ -11,8 +11,7 @@ function DisplayHeroes({heroesList}){
     }
 
     const filteredHeroes = heroesList.filter((hero)=>{
-        if (byName===""){return true}
-            else {return hero.name.toLowerCase().includes(byName)}
+        return hero.name.toLowerCase().includes(byName)
     })
     
     const [byTeam, setByTeam] = useState("none")
@@ -29,8 +28,8 @@ function DisplayHeroes({heroesList}){
     return (
         <div>
             <h1>Welcome To Our Superhero Codex</h1>
-            <FindByName handleChange={handleFind}/>
-            <FilterByTeam handleChange={handleFilter}/>
+            <FindByName handleFind={handleFind}/>
+            <FilterByTeam handleFilter={handleFilter}/>
             {displayedHeroes}
         </div>
     )
